@@ -10,7 +10,7 @@
 body{
   background-color: #3494e4;
   color: #fff;
-  font-family: 'Montserrat', sans-serif; //why is montserrat single quoted??
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,13 +27,13 @@ h3{
   background-color: #fff;
   border: 4px solid var(--border-color);
   color: var(--border-color);
-  border-radius: 0 0 40px 40px; //top straight edged bottom is 40 pixels
+  border-radius: 0 0 40px 40px;
   height: 330px;
   width: 150px;
   margin: 30px 0;
   display: flex;
   flex-direction: column;
-  overflow: hidden; //so nothing comes out of containers
+  overflow: hidden;
 }
 .cup.cup-small{
   height:95px;
@@ -46,10 +46,10 @@ h3{
   justify-content; center;
   text-align: center;
   margin: 5px;
-  transition: 0.3s ease; //transition time and "ease" effect
+  transition: 0.3s ease;
 
 }
-.cup.cup-small.full { //any class of cup that has cup small and full
+.cup.cup-small.full { 
   background-color: var(--fill-color)//set color as variable
   color: #fff;
 }
